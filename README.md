@@ -1,6 +1,6 @@
 # HackerGPT Lite Docs
 
-[HackerGPT Lite](https://hackergpt.app/) is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
+<a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
 
 ## Scanning
 
@@ -25,4 +25,14 @@ Sample Prompt:
 
 ```
 Perform SSL Scan on hackergpt.app
+```
+
+## Dark Web Search
+
+Searches dark web and presents you with screenshots of found `.onion` pages:
+
+Sample Prompt:
+
+```
+Search Dark Web for HackerGPT
 ```
