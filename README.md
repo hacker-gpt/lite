@@ -16,3 +16,13 @@ Sample Prompt:
 ```
 Perform a service discovery scan on hackergpt.app
 ```
+
+## SSL Scan
+
+This tool will tell you versions of TLS/SSL the target site uses and if its vulnerable to heartbleed or other TLS-related vulnerabilities.
+
+Sample Prompt:
+
+```
+Perform SSL Scan on hackergpt.app
+```
