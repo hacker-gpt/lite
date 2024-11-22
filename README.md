@@ -36,3 +36,22 @@ Sample Prompt:
 ```
 Search Dark Web for HackerGPT
 ```
+
+## Geo IP Location
+
+Find coordinates of an IP address or a domain name.
+
+
+Sample Prompt:
+
+```
+Find geo location of hackergpt.app
+```
+
+## WHOIS Search
+
+Sample Prompt:
+
+```
+Find WHOIS information on hackergpt.app
+```
