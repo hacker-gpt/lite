@@ -55,3 +55,11 @@ Sample Prompt:
 ```
 Find WHOIS information on hackergpt.app
 ```
+
+## Find subdomains
+
+Sample Prompt:
+
+```
+Find subdomains for hackergpt.app
+```
