@@ -2,6 +2,11 @@
 
 <a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
 
+Sample Prompt:
+
+```
+check hackergpt.app
+```
 <video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="640" height="480" controls></video>
 
 ## Scanning
