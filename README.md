@@ -2,7 +2,7 @@
 
 <a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
 
-[![Static Badge](https://img.shields.io/badge/HackerGPT%20Lite)](https://hackergpt.app)
+[![HackerGPT Lite](https://img.shields.io/badge/HackerGPT-Lite-red)](https://hackergpt.app)
 
 
 Sample Prompt:
