@@ -73,3 +73,16 @@ Sample Prompt:
 ```
 Find subdomains for hackergpt.app
 ```
+
+# Premium Features
+Preamium features are available for HackerGPT Lite Subscribers.
+
+## Phone Lookup
+
+Look up phone owners and their registered address location
+
+Sample Prompt:
+
+```
+check the phone number location: 646-450-2377
+```
