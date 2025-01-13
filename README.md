@@ -73,6 +73,12 @@ Sample Prompt:
 ```
 Find subdomains for hackergpt.app
 ```
+## VIN Lookup
+
+```
+Search VIN XXXXXXXXXXXXXXXX
+```
+
 
 # Premium Features
 Preamium features are available for HackerGPT Lite Subscribers.
@@ -86,3 +92,26 @@ Sample Prompt:
 ```
 check the phone number location: 646-450-2377
 ```
+
+## Email book
+
+Find confirmed emails addresses for a certain domain name
+
+Sample Prompt:
+
+```
+find emails for whitehacklabs.com
+```
+
+## Leaks search
+
+Find if a token/email/username is in recent leaks
+
+Sample Prompt:
+
+```
+check popcontest@gmail.com
+```
+
+
+
