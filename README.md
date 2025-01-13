@@ -79,6 +79,12 @@ Find subdomains for hackergpt.app
 Search VIN XXXXXXXXXXXXXXXX
 ```
 
+## CVE Search
+
+```
+Find all CVEs for OpenSSH Version 9.1
+```
+
 
 # Premium Features
 Preamium features are available for HackerGPT Lite Subscribers.
