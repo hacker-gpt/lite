@@ -85,6 +85,15 @@ Search VIN XXXXXXXXXXXXXXXX
 Find all CVEs for OpenSSH Version 9.1
 ```
 
+## Network Scan & CVE Search
+
+Combine 2 tools to produce more meaningful results
+
+Sample Prompt:
+```
+perform a service discovery scan and find associated CVEs on 222.95.248.216
+```
+
 
 # Premium Features
 Preamium features are available for HackerGPT Lite Subscribers.
