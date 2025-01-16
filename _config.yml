@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: HackerGPT Lite Docs
 description: Docs for the OSINT and Discovery tools for users looking to get started in cyber-security.
