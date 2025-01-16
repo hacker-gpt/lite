@@ -98,7 +98,8 @@ perform a service discovery scan and find associated CVEs on 222.95.248.216
 ```
 
 
-# Premium Features
+Premium Features
+=======================================
 
 Premium features are available for HackerGPT Lite Subscribers.
 
