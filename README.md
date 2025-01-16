@@ -76,13 +76,16 @@ Find subdomains for hackergpt.app
 ## VIN Lookup
 
 ```
-Search VIN XXXXXXXXXXXXXXXX
+Search VIN WP0CD2A80RK228485
+Search VIN WP0CB2A87RK223547
 ```
 
 ## CVE Search
 
+Sample Prompts:
 ```
-Find all CVEs for OpenSSH Version 9.1
+Find all CVEs for OpenSSH version 9.1
+Find all CVEs for Grafana 10.0
 ```
 
 ## Network Scan & CVE Search
@@ -96,7 +99,8 @@ perform a service discovery scan and find associated CVEs on 222.95.248.216
 
 
 # Premium Features
-Preamium features are available for HackerGPT Lite Subscribers.
+
+Premium features are available for HackerGPT Lite Subscribers.
 
 ## Phone Lookup
 
@@ -115,17 +119,18 @@ Find confirmed emails addresses for a certain domain name
 Sample Prompt:
 
 ```
-find emails for whitehacklabs.com
+find emails for android.com
 ```
 
 ## Leaks search
 
 Find if a token/email/username is in recent leaks
 
-Sample Prompt:
+Sample Prompts:
 
 ```
-check popcontest@gmail.com
+check daryanrayne@gmail.com
+check schamimahmut@gmail.com
 ```
 
 
