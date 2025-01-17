@@ -10,7 +10,7 @@ Sample Prompt:
 ```
 check hackergpt.app
 ```
-<video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="800" height="600" controls></video>
+<video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="1200" height="900" controls></video>
 
 ## Scanning
 
