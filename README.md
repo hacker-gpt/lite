@@ -111,6 +111,7 @@ Sample Prompt:
 
 ```
 check the phone number location: 646-450-2377
+check the owner of this phone number: 646-450-2377
 ```
 
 ## Email book
