@@ -10,7 +10,7 @@ Sample Prompt:
 ```
 check hackergpt.app
 ```
-<video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="1200" height="900" controls></video>
+<video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
 
 ## Scanning
 
@@ -41,10 +41,11 @@ Perform SSL Scan on hackergpt.app
 
 Searches dark web and presents you with screenshots of found `.onion` pages:
 
-Sample Prompt:
+Sample Prompts:
 
 ```
 Search Dark Web for HackerGPT
+Search Dark Web for Ferdinand Data Breach
 ```
 
 ## Geo IP Location
