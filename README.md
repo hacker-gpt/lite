@@ -96,6 +96,7 @@ Combine 2 tools to produce more meaningful results
 Sample Prompt:
 ```
 perform a service discovery scan and find associated CVEs on testphp.vulnweb.com
+perform a service discovery scan and find associated CVEs on juice-shop.hackergpt.app
 ```
 
 
