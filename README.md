@@ -95,7 +95,7 @@ Combine 2 tools to produce more meaningful results
 
 Sample Prompt:
 ```
-perform a service discovery scan and find associated CVEs on 222.95.248.216
+perform a service discovery scan and find associated CVEs on testphp.vulnweb.com
 ```
 
 
