@@ -99,6 +99,54 @@ perform a service discovery scan and find associated CVEs on testphp.vulnweb.com
 perform a service discovery scan and find associated CVEs on juice-shop.hackergpt.app
 ```
 
+## Onion Links Analysis
+
+Scrapes and analyzes a list of onion links via the Tor proxy so you don't have to access them directly by yourself.
+
+Sample Prompt:
+```
+analyze http://exampleonion.onion
+```
+
+## Crypto Analysis Tools
+
+HackerGPT Lite includes several new crypto analysis features. These tools let you analyze tokens and wallets across different blockchains (Ethereum, Bitcoin, Solana, BSC, POL, etc.) and also check on-chain data like transactions, security, and sanctions.
+
+### 1. Token analysis 
+Retrieves detailed token information including general info, platform details, and security analysis. 
+
+Sample Prompts: 
+```
+check TRUMP token
+give complete detail of BNB token
+```
+### 2. Ethereum wallet analysis 
+Analyzes an Ethereum wallet by retrieving its ETH balance, transaction history, and other token holdings.
+
+Sample Prompts: 
+```
+analyze wallet 0x21E71B5AbdAf8F6a197648FdeB62C8948EAa8F5F
+check 0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a
+```
+
+### 3. Bitcoin wallet analysis 
+Analyzes a Bitcoin wallet by fetching its BTC balance, transaction history, and USD equivalents.
+
+Sample Prompts: 
+```
+analyze Bitcoin wallet 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+give me recent transaction history of 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+```
+
+### 4. Sanctioned address check
+Checks if a cryptocurrency wallet address is sanctioned against global economic and trade embargo lists.
+
+Sample Prompts: 
+```
+check if wallet address 0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a is sanctioned
+is this wallet safe to deal with? 0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a
+```
+
 
 Premium Features
 =======================================
@@ -137,5 +185,13 @@ check daryanrayne@gmail.com
 check schamimahmut@gmail.com
 ```
 
+## Crypto analysis on Solana chain
 
+Analyzes crypto wallets and tokens on SOL chain by fetching its total balance, individual token details, and associated risks (rug-pull probability).
 
+Sample Prompts:
+
+```
+is TRUMP token a rugpull?
+analyze wallet 7rE6Q4c89bPiTqHg5Q67CbfnbYc8g43G7tEX5ZRbp8GG
+```
