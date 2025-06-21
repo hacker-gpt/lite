@@ -24,7 +24,7 @@ You can scan public targets using HackerGPT Lite, there are 4 types of scans you
 Sample Prompt:
 
 ```
-Perform a service discovery scan on hackergpt.app
+Perform a service discovery scan on juice-shop.hackergpt.app
 ```
 
 ## SSL Scan
@@ -34,7 +34,7 @@ This tool will tell you versions of TLS/SSL the target site uses and if its vuln
 Sample Prompt:
 
 ```
-Perform SSL Scan on hackergpt.app
+Perform SSL Scan on juice-shop.hackergpt.app
 ```
 
 ## Dark Web Search
@@ -64,7 +64,7 @@ Find geo location of hackergpt.app
 Sample Prompt:
 
 ```
-Find WHOIS information on hackergpt.app
+Find domain registration details for hackergpt.app
 ```
 
 ## Find subdomains
@@ -72,7 +72,7 @@ Find WHOIS information on hackergpt.app
 Sample Prompt:
 
 ```
-Find subdomains for hackergpt.app
+Find subdomains for wikipedia.org
 ```
 ## VIN Lookup
 
@@ -89,14 +89,19 @@ Find all CVEs for OpenSSH version 9.1
 Find all CVEs for Grafana 10.0
 ```
 
-## Network Scan & CVE Search
+## Network Scan, CVE Search & Exploit code
 
-Combine 2 tools to produce more meaningful results
+1. Combine several tools to produce more meaningful results
 
 Sample Prompt:
 ```
 perform a service discovery scan and find associated CVEs on testphp.vulnweb.com
 perform a service discovery scan and find associated CVEs on juice-shop.hackergpt.app
+```
+2. After vulnerabilities are found prompt it with finding an exploit code:
+
+```
+find exploit script
 ```
 
 ## Onion Links Analysis
@@ -153,7 +158,7 @@ Premium Features
 
 Premium features are available for HackerGPT Lite Subscribers.
 
-## Phone Lookup
+## Phone Lookup (US numbers only)
 
 Look up phone owners and their registered address location
 
