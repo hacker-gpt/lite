@@ -2,6 +2,8 @@
 
 <a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
 
+Watch it perform SQL injection on OWASP Juice Shop:
+
 [![HackerGPT Lite](https://img.shields.io/badge/HackerGPT-Lite-red)](https://hackergpt.app)
 
 
@@ -10,7 +12,7 @@ Sample Prompt:
 ```
 check hackergpt.app
 ```
-<video controls src="media/short_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
+<video controls src="https://hackergpt.s3.us-east-1.amazonaws.com/assets/videos/browser_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
 
 ## Scanning
 
@@ -111,6 +113,15 @@ Scrapes and analyzes a list of onion links via the Tor proxy so you don't have t
 Sample Prompt:
 ```
 analyze http://exampleonion.onion
+```
+
+## Browser
+
+Navigates to the URL of your choice, gathers network logs
+
+Sample Prompt:
+```
+open browser at https://juice-shop.hackergpt.app
 ```
 
 ## Crypto Analysis Tools
