@@ -4,15 +4,16 @@
 
 Watch it perform SQL injection on OWASP Juice Shop:
 
+<video controls src="https://hackergpt.s3.us-east-1.amazonaws.com/assets/videos/browser_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
+
 [![HackerGPT Lite](https://img.shields.io/badge/HackerGPT-Lite-red)](https://hackergpt.app)
 
 
 Sample Prompt:
 
 ```
-check hackergpt.app
+check juice-shop.hackergpt.app
 ```
-<video controls src="https://hackergpt.s3.us-east-1.amazonaws.com/assets/videos/browser_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
 
 ## Scanning
 
