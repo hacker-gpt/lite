@@ -120,9 +120,10 @@ analyze http://exampleonion.onion
 
 Navigates to the URL of your choice, gathers network logs
 
-Sample Prompt:
+Sample Prompts:
 ```
 open browser at https://juice-shop.hackergpt.app
+GO_TO_URL http://testphp.vulnweb.com/
 ```
 
 ## Crypto Analysis Tools
