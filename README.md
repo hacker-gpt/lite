@@ -59,6 +59,16 @@ Search Dark Web for HackerGPT
 Search Dark Web for Ferdinand Data Breach
 ```
 
+## Dark Web Browsing
+
+Browse and search the dark web for references to a breach, person, organisation or topic. HackerGPT navigates `.onion` sources over Tor and brings back what it finds, so you never have to access the dark web directly.
+
+Sample Prompt:
+
+```
+Search any references of LexisNexis Data Breach on the dark web
+```
+
 ## Geo IP Location
 
 Find coordinates of an IP address or a domain name.
