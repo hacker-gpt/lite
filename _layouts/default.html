@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="flag">⚑</span> HackerGPT Lite</a>
+      <nav>
+        <a href="{{ '/ctf/' | relative_url }}">CTF Mode Guide</a>
+        <a href="https://hackergpt.app/" target="_blank" rel="noopener">Launch App</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://hackergpt.app/" target="_blank" rel="noopener">HackerGPT Lite</a>
+    — an OSINT, discovery &amp; CTF-solving tool. Documentation.
+  </footer>
+</body>
+</html>

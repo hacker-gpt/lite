@@ -1,18 +1,15 @@
 # HackerGPT Lite Docs
 
-<a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and Discovery tool. Its free to use for first N interactions. You can start using it with existing Google account.
-
-Watch it perform SQL injection on OWASP Juice Shop:
-
-<video controls src="https://hackergpt.s3.us-east-1.amazonaws.com/assets/videos/browser_demo.mp4" title="HackerGPT Lite" width="1000" height="700" controls></video>
+<a href="https://hackergpt.app/" target="_blank">HackerGPT Lite</a> is a publicly available web OSINT and CTF Solving tool. You can start using it with existing Google account.
 
 [![HackerGPT Lite](https://img.shields.io/badge/HackerGPT-Lite-red)](https://hackergpt.app)
 
+> 🚩 Want to see it solve full Capture-the-Flag challenges? Read the **[CTF Mode field guide](ctf/)** — a screenshot walkthrough of HackerGPT attacking a live OWASP Juice Shop target. (See [CTF Mode](#ctf-mode) below.)
 
 Sample Prompt:
 
 ```
-check juice-shop.hackergpt.app
+check cybergym.hackergpt.app
 ```
 
 ## Scanning
@@ -27,7 +24,18 @@ You can scan public targets using HackerGPT Lite, there are 4 types of scans you
 Sample Prompt:
 
 ```
-Perform a service discovery scan on juice-shop.hackergpt.app
+Perform a service discovery scan on cybergym.hackergpt.app
+```
+
+## Web Fingerprinting
+
+Identify the technologies, server software and versions running on a target web application — the first step before looking for known vulnerabilities.
+
+Sample Prompts:
+
+```
+check cybergym.hackergpt.app
+fingerprint hackergpt.app
 ```
 
 ## SSL Scan
@@ -37,7 +45,7 @@ This tool will tell you versions of TLS/SSL the target site uses and if its vuln
 Sample Prompt:
 
 ```
-Perform SSL Scan on juice-shop.hackergpt.app
+Perform SSL Scan on cybergym.hackergpt.app
 ```
 
 ## Dark Web Search
@@ -99,21 +107,12 @@ Find all CVEs for Grafana 10.0
 Sample Prompt:
 ```
 perform a service discovery scan and find associated CVEs on testphp.vulnweb.com
-perform a service discovery scan and find associated CVEs on juice-shop.hackergpt.app
+perform a service discovery scan and find associated CVEs on cybergym.hackergpt.app
 ```
 2. After vulnerabilities are found prompt it with finding an exploit code:
 
 ```
 find exploit script
-```
-
-## Onion Links Analysis
-
-Scrapes and analyzes a list of onion links via the Tor proxy so you don't have to access them directly by yourself.
-
-Sample Prompt:
-```
-analyze http://exampleonion.onion
 ```
 
 ## Browser
@@ -122,8 +121,18 @@ Navigates to the URL of your choice, gathers network logs
 
 Sample Prompts:
 ```
-open browser at https://juice-shop.hackergpt.app
+open browser at https://cybergym.hackergpt.app
 GO_TO_URL http://testphp.vulnweb.com/
+```
+
+## Image EXIF / Metadata Analysis
+
+Extract EXIF metadata from an image URL — camera model, software, timestamps and GPS coordinates where present. Useful for verifying image authenticity and geolocating photos.
+
+Sample Prompt:
+
+```
+extract exif data from https://hackergpt.s3.us-east-1.amazonaws.com/assets/sample.jpg
 ```
 
 ## Crypto Analysis Tools
@@ -170,6 +179,38 @@ Premium Features
 =======================================
 
 Premium features are available for HackerGPT Lite Subscribers.
+
+## CTF Mode
+
+CTF Mode turns HackerGPT Lite into an autonomous web-exploitation agent. Give it a target URL and it fingerprints the app, maps the attack surface from the static frontend, then drives a real browser session to confirm and exploit vulnerabilities — SQL injection, broken access control (IDOR), XSS, sensitive-data exposure, layered-encoding challenges and more.
+
+As it works it builds a live workspace alongside the chat:
+
+- **Network** — the raw request/response log of everything the agent sends; any request can be promoted with **Save as Payload**.
+- **Payloads** — a vault of saved exploit requests you can expand and **Replay** with one click.
+- **API Map** — the target's backend API surface, auto-discovered from the crawl.
+- **Memory** — a persistent scratchpad of findings, credentials and confirmed vulnerabilities that carries across turns.
+
+📖 **[Read the full CTF Mode field guide &rarr;](ctf/)** — a step-by-step walkthrough, with screenshots, of HackerGPT solving challenges on a live OWASP Juice Shop target and using the Payloads, API Map, Memory and Network panels.
+
+Sample Prompts:
+
+```
+Analyze https://cybergym.hackergpt.app and discover all the injection vulnerabilities
+Solve the Login Admin challenge on cybergym.hackergpt.app
+```
+
+## Face Search
+
+Reverse-search a face across the public web using a photo you upload or an Instagram handle, to help identify or attribute a person.
+
+Sample Prompt:
+
+```
+face search insta: @stevecarell
+```
+
+You can also upload a photo and ask HackerGPT to find where that face appears online.
 
 ## Phone Lookup (US numbers only)
 

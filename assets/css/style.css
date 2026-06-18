@@ -1,0 +1,102 @@
+/* HackerGPT Lite Docs — dark theme, matched to the CTF Mode field guide. */
+:root{
+  --bg:#0d1117; --panel:#161b22; --border:#30363d; --fg:#e6edf3;
+  --muted:#9da7b3; --accent:#f5a623; --accent2:#3ebac6; --code:#1f2630;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* top site banner */
+.site-header{
+  position:sticky; top:0; z-index:10;
+  background:rgba(13,17,23,.85); backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+}
+.site-header .bar{
+  max-width:1040px; margin:0 auto; padding:12px 24px;
+  display:flex; align-items:center; gap:18px;
+}
+.site-header .brand{font-weight:700; font-size:17px; color:var(--fg); text-decoration:none; letter-spacing:.2px}
+.site-header .brand .flag{color:var(--accent)}
+.site-header nav{margin-left:auto; display:flex; gap:18px}
+.site-header nav a{color:var(--muted); text-decoration:none; font-size:14px}
+.site-header nav a:hover{color:var(--accent2)}
+
+/* content container */
+.wrap{max-width:1040px; margin:0 auto; padding:8px 24px 64px}
+
+/* markdown elements */
+h1,h2,h3,h4{line-height:1.25; scroll-margin-top:70px}
+h1{
+  font-size:34px; margin:34px 0 10px;
+  background:linear-gradient(90deg,var(--fg),#aeb7c2);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+}
+h1:first-child{margin-top:18px}
+h2{
+  font-size:25px; margin:42px 0 14px; padding-bottom:8px;
+  border-bottom:1px solid var(--border); color:var(--fg);
+}
+h3{font-size:18px; margin:26px 0 10px; color:var(--accent2)}
+h4{font-size:15px; margin:20px 0 8px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em}
+p{margin:0 0 16px}
+a{color:var(--accent2); text-decoration:none}
+a:hover{text-decoration:underline}
+strong{color:#fff}
+hr{border:0; border-top:1px solid var(--border); margin:36px 0}
+
+ul,ol{margin:0 0 18px; padding-left:22px}
+li{margin:6px 0}
+li::marker{color:var(--accent)}
+
+/* code */
+code{
+  background:var(--code); color:#ffd591; padding:2px 7px; border-radius:5px;
+  font:13.5px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+pre{
+  background:var(--code); border:1px solid var(--border); border-radius:10px;
+  padding:16px 18px; overflow:auto; margin:0 0 20px;
+}
+pre code{background:none; color:#cdd9e5; padding:0; font-size:13.5px}
+
+/* blockquotes -> note callout (matches the guide's .note) */
+blockquote{
+  margin:0 0 22px; padding:14px 18px;
+  background:rgba(62,186,198,.08); border:1px solid rgba(62,186,198,.3);
+  border-left:3px solid var(--accent2); border-radius:8px; color:var(--muted);
+}
+blockquote p{margin:0}
+blockquote strong{color:var(--accent2)}
+
+/* setext "Premium Features" divider reads as an h1 — give it a badge feel */
+h1#premium-features{
+  font-size:22px; margin-top:56px; -webkit-text-fill-color:initial; color:var(--accent);
+  background:none; border-top:1px solid var(--border); padding-top:28px;
+}
+
+/* media */
+img{max-width:100%; height:auto; vertical-align:middle}
+video{max-width:100%; height:auto; border:1px solid var(--border); border-radius:10px; display:block; margin:0 0 22px}
+img[src*="img.shields.io"]{display:inline-block; margin:4px 0}
+
+/* tables (if any) */
+table{border-collapse:collapse; width:100%; margin:0 0 20px; font-size:14.5px}
+th,td{border:1px solid var(--border); padding:8px 12px; text-align:left}
+th{background:var(--panel); color:var(--fg)}
+
+footer.site-footer{
+  border-top:1px solid var(--border); margin-top:48px;
+  color:var(--muted); font-size:13px; text-align:center; padding:28px 24px;
+}
+footer.site-footer a{color:var(--accent2)}
+
+@media (max-width:640px){
+  .site-header nav{display:none}
+  h1{font-size:27px} h2{font-size:21px}
+}
